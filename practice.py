@@ -322,3 +322,58 @@
 # # java 를 잊었어요
 # java.remove("김태호")
 # print(java)
+
+
+
+
+# ------------------------------------------------------
+
+
+
+
+
+    # 자료구조의 변경
+#커피숍
+# menu = {"커피", "우유", "주스"}
+# print(menu, type(menu))
+
+# menu = list(menu)
+# print(menu, type(menu))
+
+# menu = tuple(menu)
+# print(menu, type(menu))
+
+# menu = set(menu)
+# print(menu, type(menu))
+
+
+
+
+# ------------------------------------------------------
+
+
+
+
+    # 문제
+# 당신 학교에서는 파이썬 코딩 대회를 주최합니다.
+# 참석률을 높이기 위해 댓글 이벤트를 진행하기로 하였습니다.
+# 댓글 작성자들 중에 추첨을 통하여 1명은 치킨 3명은 커피 쿠폰을 받게 됩니다.
+# 추천 프로그램을 작성하시오.
+
+# 조건1 : 편의상 댓글은 20명이 작성하였고 아이디는 1~20 이라고 가정
+# 조건2 : 댓글 내용과 상관 없이 무작위로 추첨하되 중복 불가
+# 조건3 : random 모듈의 suffle 과 sample을 활용
+
+# from random import *
+# dat = range(1,21)
+# # print(type(dat))
+# dat = list(dat)
+
+# print(dat)
+# shuffle(dat)
+# print(dat)
+
+# winners = sample(dat, 4)
+# print("당첨차 발표")
+# print("치킨 당첨자 : {0}".format(winners[0]))
+# print("커피 당첨자 : {0}".format(winners[1:]))
